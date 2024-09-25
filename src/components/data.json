@@ -1,0 +1,58 @@
+[
+    {
+        "image": "https://via.placeholder.com/250",
+        "title": "Amazing Nature",
+        "summary": "Discover the beauty of nature.",
+        "description": "Nature is the most beautiful thing we have. It’s better than art because it’s from the creator.",
+        "pull_count": "Learn More"
+    },
+    {
+        "image": "https://via.placeholder.com/250/ff7f7f",
+        "title": "Explore the Universe",
+        "summary": "Unravel the mysteries of space.",
+        "description": "The universe is vast and full of wonders, waiting for you to explore.",
+        "pull_count": "Discover More"
+    },
+    {
+        "image": "https://via.placeholder.com/250/7f7fff",
+        "title": "Adventure Awaits",
+        "summary": "Join us on an adventure.",
+        "description": "Whether it's hiking, camping, or exploring, adventure is out there waiting for you.",
+        "pull_count": "Join Now"
+    },
+    {
+        "image": "https://via.placeholder.com/250/ffdf7f",
+        "title": "Culinary Delights",
+        "summary": "Taste the world through cuisine.",
+        "description": "Explore a variety of recipes and culinary traditions from different cultures.",
+        "pull_count": "Start Cooking"
+    },
+    {
+        "image": "https://via.placeholder.com/250/7fff7f",
+        "title": "The Art of Photography",
+        "summary": "Capture moments that matter.",
+        "description": "Learn techniques and tips to improve your photography skills and capture beautiful memories.",
+        "pull_count": "Get Started"
+    },
+    {
+        "image": "https://via.placeholder.com/250/ff7f9f",
+        "title": "Fitness Journey",
+        "summary": "Transform your health and wellness.",
+        "description": "Join us in a journey to better health with workout routines and nutrition tips.",
+        "pull_count": "Join the Challenge"
+    },
+    {
+        "image": "https://via.placeholder.com/250/7f7fff",
+        "title": "Travel the World",
+        "summary": "Experience different cultures.",
+        "description": "Discover travel tips and guides to explore the globe like a local.",
+        "pull_count": "Explore Destinations"
+    },
+    {
+        "image": "https://via.placeholder.com/250/fff77f",
+        "title": "Mindfulness and Meditation",
+        "summary": "Find peace in the present moment.",
+        "description": "Learn practices to cultivate mindfulness and reduce stress in your life.",
+        "pull_count": "Start Meditating"
+    }
+]

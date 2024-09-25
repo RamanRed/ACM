@@ -1,4 +1,4 @@
-.card {
+/* .card {
     width: 190px;
     height: 120px;
     padding: 0.5rem;
@@ -8,7 +8,7 @@
     border-bottom: 3px solid rgba(255, 255, 255, 0.440);
     border-left: 2px  rgba(255, 255, 255, 0.545) outset;
     box-shadow: -40px 50px 30px rgba(0, 0, 0, 0.280);
-    transform: skewX(10deg);
+    transform: skewX(2deg);
     transition: .4s;
     overflow: hidden;
     color: rgb(39, 34, 34);
@@ -31,4 +31,69 @@
   .card .pic{
     width: 100%;
     z-index: 56;
-  }
+  } */
+
+  .card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card-image {
+    max-width: 250px; /* Max width set to 250px */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the area */
+}
+
+.card-content {
+    padding: 15px;
+    flex: 1; /* Allow this part to take remaining space */
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.card-description {
+    font-size: 1em;
+    color: #555;
+    margin: 10px 0;
+}
+
+.card-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.card-button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .card {
+        flex-direction: column; /* Stack the elements vertically */
+    }
+
+    .card-image {
+        max-width: 100%; /* Full width on small screens */
+        height: auto;
+    }
+}
+
