@@ -36,7 +36,8 @@ const Note = () => {
   useEffect(() => {
     const fetchData = async () => {
         try {
-            const response = await fetch('/data.json'); // Adjust the path if needed
+            const response = await fetch('/data.json'); // Adjust the path if needed this is random data set
+          
             if (!response.ok) {
                 throw new Error('Network response was not ok');
             }
