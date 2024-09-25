@@ -33,14 +33,22 @@ const Note = () => {
   // );
   const [cards, setCards] = useState([]);
 
-    useEffect(() => {
-        const fetchData = async () => {
-            const response = await fetch('data.json'); // Adjust the path if needed
+  useEffect(() => {
+    const fetchData = async () => {
+        try {
+            const response = await fetch('/data.json'); // Adjust the path if needed
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
             const data = await response.json();
             setCards(data);
-        };
-        fetchData();
-    }, []);
+        } catch (error) {
+            console.error('Error fetching data:', error);
+        }
+    };
+    fetchData();
+}, []);
+
 
     return (
         <div>
